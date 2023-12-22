@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    user-select: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1 {
+    color: black;
+    font-size: 22px;
+}
+
+header div {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div span a {
+    color: rgb(29, 29, 29);
+}
+
+header div span a:hover {
+    color: rgb(95, 95, 95);
+}
+
+.container1 {
+    width: 50%;
+    height: 100%;
+    border-right: 2px solid rgb(36, 36, 36);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.count {
+    font-size: 150px;
+}
+
+.btns {
+    margin-top: 20px;
+}
+
+.decreaseBtn,
+.increaseBtn {
+    width: 100px;
+    height: 25px;
+    letter-spacing: 0.1rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.resetBtn {
+    width: 60px;
+    height: 25px;
+    letter-spacing: 0.1rem;
+    border-radius: 5px;
+    color: black;
+}
+
+.decreaseBtn:hover,
+.increaseBtn:hover,
+.resetBtn:hover {
+    background-color: grey;
+    color: white;
+    border: 2px solid black;
+}
+
+.container2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.count2 {
+    font-size: 150px;
+}
+
+.btns2 {
+    margin-top: 20px;
+}
+
+.decreaseBtn2,
+.increaseBtn2 {
+    width: 100px;
+    height: 25px;
+    letter-spacing: 0.1rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.resetBtn2 {
+    width: 60px;
+    height: 25px;
+    letter-spacing: 0.1rem;
+    border-radius: 5px;
+    color: black;
+}
+
+.decreaseBtn2:hover,
+.increaseBtn2:hover,
+.resetBtn2:hover {
+    background-color: grey;
+    color: white;
+    border: 2px solid black;
+}
+
+.content {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
